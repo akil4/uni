@@ -29,12 +29,12 @@ public class arrangeOddEvenNumbers
                 odd += 2;
             }
         }
-        System.out.println("1");
         /* // Print the arranged elements
         for(int i = 0; i < N; i++)
         {
             System.out.print(arraySolution[i] + " ");
         }
         System.out.println(); */
+        System.out.println("1");
     }  
 }
