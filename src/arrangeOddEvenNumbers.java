@@ -2,10 +2,11 @@ public class arrangeOddEvenNumbers
 {
     public static void main(String[] args)
     {
-        int[] arr = {3, 6, 12, 1, 5, 8};
-        int N = arr.length;
+        int[] array1 = {3, 6, 12, 1, 5, 8};
+        int[] array2 = {1, 2, 3, 4};
         arrangeOddEvenNumbers object = new arrangeOddEvenNumbers();
-        object.reArrange(arr, N);
+        object.reArrange(array1, array1.length);
+        object.reArrange(array2, array2.length);
     }  
     public void reArrange(int[] arr, int N)
     {
@@ -28,6 +29,7 @@ public class arrangeOddEvenNumbers
                 odd += 2;
             }
         }
+        System.out.println("1");
         /* // Print the arranged elements
         for(int i = 0; i < N; i++)
         {
