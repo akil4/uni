@@ -10,7 +10,7 @@ public class Kpattern
         int count = 0;
         for (int i = 0; i < N; i++)
         {
-            for(int j =0; j < N - i; j++)
+            for(int j = 0; j < N - i; j++)
             {
                 System.out.print(count++ + "\t");
                 /* System.out.print(j + "\t"); */
