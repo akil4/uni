@@ -10,7 +10,7 @@ public class minmax
             throw new IllegalArgumentException("Array cannot be empty!");
         }
 
-        
+
         int min = array[0];
         int max = array[0];
         for (int num : array)
