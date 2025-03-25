@@ -3,7 +3,7 @@ import java.util.*;
 
 public class minmax
 {
-    public static Pair<Integer, Integer> getMinMax(int[] array)
+    public static ArrayList<Integer> getMinMax(int[] array)
     {
         if (array == null || array.length == 0)
         {
@@ -24,8 +24,10 @@ public class minmax
                 max = num;
             }
         }
-
-        return new Pair<>(min, max);
+        ArrayList<Integer> result = new ArrayList<>();
+        result.add(min);
+        result.add(max);
+        return result;
     }
 
     public static void main(String[] args)
