@@ -1,6 +1,4 @@
 package uni.array;
-import java.util.*;
-import java.util.Arrays;
 public class evenandoddposition {
     public static void  evenOddPosition(int[]arr)
     {

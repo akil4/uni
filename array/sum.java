@@ -1,5 +1,4 @@
 package uni.array;
-import java.util.*;
 public class sum {
     public static void Sum(int[]arr)
     {

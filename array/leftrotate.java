@@ -1,5 +1,4 @@
 package uni.array;
-import java.util.Arrays;
 
 public class leftrotate {
 

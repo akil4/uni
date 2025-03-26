@@ -1,5 +1,4 @@
 package uni.array;
-import java.util.*;
 class rod
 {
     public static int cutRod(int[]price)

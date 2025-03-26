@@ -1,6 +1,5 @@
 package uni.array;
 import java.util.Arrays;
-import java.util.*;
 public class insert {
     public static void Insert(int[] arr, int index, int value) {
         int[] newArr = new int[arr.length + 1];
